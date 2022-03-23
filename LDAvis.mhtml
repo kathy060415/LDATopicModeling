@@ -1,0 +1,294 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://127.0.0.1:8891/
+Subject: LDAvis
+Date: Wed, 23 Mar 2022 05:11:56 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--P52ER1VV4e7WXr8iSoGt8uketJRB56N8BWqSkn1UIr----"
+
+
+------MultipartBoundary--P52ER1VV4e7WXr8iSoGt8uketJRB56N8BWqSkn1UIr----
+Content-Type: text/html
+Content-ID: <frame-7A2221CF799E906382E8044DD55A3D5A@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:8891/
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dwindows-1252"><title>LDAvis</title></head><body>
+
+<link rel=3D"stylesheet" type=3D"text/css" href=3D"https://cdn.rawgit.com/b=
+mabey/pyLDAvis/files/ldavis.v1.0.0.css">
+
+
+<div id=3D"ldavis_el5466822787434468007927122080"><div id=3D"ldavis_el54668=
+22787434468007927122080-top" style=3D"width: 1210px"><div style=3D"padding:=
+ 5px; background-color: #e8e8e8; display: inline-block; width: 530px; heigh=
+t: 50px; float: left"><label for=3D"ldavis_el5466822787434468007927122080-t=
+opic" style=3D"font-family: sans-serif; font-size: 14px">Selected Topic: <s=
+pan id=3D"ldavis_el5466822787434468007927122080-topic-value"></span></label=
+><input style=3D"width: 50px" type=3D"text" min=3D"0" max=3D"5" step=3D"1" =
+id=3D"ldavis_el5466822787434468007927122080-topic"><button id=3D"ldavis_el5=
+466822787434468007927122080-topic-down" style=3D"margin-left: 5px">Previous=
+ Topic</button><button id=3D"ldavis_el5466822787434468007927122080-topic-up=
+" style=3D"margin-left: 5px">Next Topic</button><button id=3D"ldavis_el5466=
+822787434468007927122080-topic-clear" style=3D"margin-left: 5px">Clear Topi=
+c</button></div><div id=3D"ldavis_el5466822787434468007927122080-lambdaInpu=
+t" style=3D"padding: 5px; background-color: #e8e8e8; display: inline-block;=
+ height: 50px; width: 530px; float: right; margin-right: 30px"><div style=
+=3D"padding: 5px; height: 20px; width: 220px; font-family: sans-serif; floa=
+t: left" id=3D"ldavis_el5466822787434468007927122080-lambdaZero"><text x=3D=
+"0" y=3D"0" style=3D"font-size: 14px;">Slide to adjust relevance metric:</t=
+ext><text x=3D"125" y=3D"-5" style=3D"font-size: 10px; position: absolute;"=
+>(2)</text></div><div id=3D"ldavis_el5466822787434468007927122080-sliderdiv=
+" style=3D"padding: 5px; height: 40px; width: 250px; float: right; margin-t=
+op: -5px; margin-right: 10px"><input style=3D"width: 250px; margin-left: 0p=
+x; margin-right: 0px" type=3D"range" min=3D"0" max=3D"1" step=3D"0.01" id=
+=3D"ldavis_el5466822787434468007927122080-lambda" list=3D"ticks"><svg width=
+=3D"250" height=3D"25"><g class=3D"slideraxis" margin-top=3D"-10px"><g clas=
+s=3D"tick" transform=3D"translate(7.5,0)" style=3D"opacity: 1;"><line y2=3D=
+"10" x2=3D"0"></line><text dy=3D".71em" y=3D"13" x=3D"0" style=3D"text-anch=
+or: middle;">0.0</text></g><g class=3D"tick" transform=3D"translate(54.5,0)=
+" style=3D"opacity: 1;"><line y2=3D"10" x2=3D"0"></line><text dy=3D".71em" =
+y=3D"13" x=3D"0" style=3D"text-anchor: middle;">0.2</text></g><g class=3D"t=
+ick" transform=3D"translate(101.5,0)" style=3D"opacity: 1;"><line y2=3D"10"=
+ x2=3D"0"></line><text dy=3D".71em" y=3D"13" x=3D"0" style=3D"text-anchor: =
+middle;">0.4</text></g><g class=3D"tick" transform=3D"translate(148.5,0)" s=
+tyle=3D"opacity: 1;"><line y2=3D"10" x2=3D"0"></line><text dy=3D".71em" y=
+=3D"13" x=3D"0" style=3D"text-anchor: middle;">0.6</text></g><g class=3D"ti=
+ck" transform=3D"translate(195.5,0)" style=3D"opacity: 1;"><line y2=3D"10" =
+x2=3D"0"></line><text dy=3D".71em" y=3D"13" x=3D"0" style=3D"text-anchor: m=
+iddle;">0.8</text></g><g class=3D"tick" transform=3D"translate(242.5,0)" st=
+yle=3D"opacity: 1;"><line y2=3D"10" x2=3D"0"></line><text dy=3D".71em" y=3D=
+"13" x=3D"0" style=3D"text-anchor: middle;">1.0</text></g><path class=3D"do=
+main" d=3D"M7.5,10V0H242.5V10"></path></g></svg></div><label id=3D"ldavis_e=
+l5466822787434468007927122080-lamlabel" for=3D"ldavis_el5466822787434468007=
+927122080-lambda" style=3D"height: 20px; width: 60px; font-family: sans-ser=
+if; font-size: 14px; margin-left: 80px">&#955; =3D <span id=3D"ldavis_el546=
+6822787434468007927122080-lambda-value">1</span></label></div></div><svg wi=
+dth=3D"1210" height=3D"780"><g id=3D"ldavis_el5466822787434468007927122080-=
+leftpanel" class=3D"points" transform=3D"translate(30,60)"><rect x=3D"0" y=
+=3D"0" height=3D"530" width=3D"530" opacity=3D"0" style=3D"fill: rgb(31, 11=
+9, 180);"></rect><line x1=3D"0" x2=3D"530" y1=3D"265" y2=3D"265" stroke=3D"=
+gray" opacity=3D"0.3"></line><text x=3D"0" y=3D"260" fill=3D"gray">PC1</tex=
+t><line x1=3D"265" x2=3D"265" y1=3D"0" y2=3D"530" stroke=3D"gray" opacity=
+=3D"0.3"></line><text x=3D"270" y=3D"7" fill=3D"gray">PC2</text><circle cla=
+ss=3D"circleGuideSmall" r=3D"21.143940861275933" cx=3D"57.279289078048436" =
+cy=3D"551.143940861276" style=3D"fill: none; stroke-dasharray: 2, 2; stroke=
+: rgb(153, 153, 153);"></circle><line class=3D"lineGuideSmall" x1=3D"57.279=
+289078048436" x2=3D"128.1982226951211" y1=3D"572.2878817225519" y2=3D"572.2=
+878817225519" style=3D"stroke: gray; opacity: 0.3;"></line><circle class=3D=
+"circleGuideMedium" r=3D"33.43150591676712" cx=3D"57.279289078048436" cy=3D=
+"563.4315059167672" style=3D"fill: none; stroke-dasharray: 2, 2; stroke: rg=
+b(153, 153, 153);"></circle><line class=3D"lineGuideMedium" x1=3D"57.279289=
+078048436" x2=3D"128.1982226951211" y1=3D"596.8630118335343" y2=3D"596.8630=
+118335343" style=3D"stroke: gray; opacity: 0.3;"></line><circle class=3D"ci=
+rcleGuideLarge" r=3D"47.279289078048436" cx=3D"57.279289078048436" cy=3D"57=
+7.2792890780485" style=3D"fill: none; stroke-dasharray: 2, 2; stroke: rgb(1=
+53, 153, 153);"></circle><line class=3D"lineGuideLarge" x1=3D"57.2792890780=
+48436" x2=3D"128.1982226951211" y1=3D"624.5585781560969" y2=3D"624.55857815=
+60969" style=3D"stroke: gray; opacity: 0.3;"></line><text x=3D"10" y=3D"520=
+" class=3D"circleGuideTitle">Marginal topic distribtion</text><text x=3D"13=
+8.1982226951211" y=3D"572.2878817225519" class=3D"circleGuideLabelSmall" st=
+yle=3D"text-anchor: start;">2%</text><text x=3D"138.1982226951211" y=3D"596=
+.8630118335343" class=3D"circleGuideLabelMedium" style=3D"text-anchor: star=
+t;">5%</text><text x=3D"138.1982226951211" y=3D"624.5585781560969" class=3D=
+"circleGuideLabelLarge" style=3D"text-anchor: start;">10%</text><text class=
+=3D"txt" x=3D"505.9090909090909" y=3D"315.7154494523343" stroke=3D"black" o=
+pacity=3D"1" style=3D"text-anchor: middle; font-size: 11px;">1</text><text =
+class=3D"txt" x=3D"256.959566176555" y=3D"69.1833138551454" stroke=3D"black=
+" opacity=3D"1" style=3D"text-anchor: middle; font-size: 11px;">2</text><te=
+xt class=3D"txt" x=3D"24.09090909090909" y=3D"412.10486318117637" stroke=3D=
+"black" opacity=3D"1" style=3D"text-anchor: middle; font-size: 11px;">3</te=
+xt><text class=3D"txt" x=3D"64.54338079351295" y=3D"227.20684989296666" str=
+oke=3D"black" opacity=3D"1" style=3D"text-anchor: middle; font-size: 11px;"=
+>4</text><text class=3D"txt" x=3D"206.66310680949866" y=3D"468.816686144854=
+6" stroke=3D"black" opacity=3D"1" style=3D"text-anchor: middle; font-size: =
+11px;">5</text><circle class=3D"dot" r=3D"121.5738947429187" cx=3D"505.9090=
+909090909" cy=3D"311.7154494523343" stroke=3D"black" id=3D"ldavis_el5466822=
+787434468007927122080-topic1" style=3D"opacity: 0.2; fill: rgb(31, 119, 180=
+);"></circle><circle class=3D"dot" r=3D"65.25218564825435" cx=3D"256.959566=
+176555" cy=3D"65.1833138551454" stroke=3D"black" id=3D"ldavis_el54668227874=
+34468007927122080-topic2" style=3D"opacity: 0.2; fill: rgb(31, 119, 180);">=
+</circle><circle class=3D"dot" r=3D"36.204099097708465" cx=3D"24.0909090909=
+0909" cy=3D"408.10486318117637" stroke=3D"black" id=3D"ldavis_el54668227874=
+34468007927122080-topic3" style=3D"opacity: 0.2; fill: rgb(31, 119, 180);">=
+</circle><circle class=3D"dot" r=3D"35.09966163591023" cx=3D"64.54338079351=
+295" cy=3D"223.20684989296666" stroke=3D"black" id=3D"ldavis_el546682278743=
+4468007927122080-topic4" style=3D"opacity: 0.2; fill: rgb(31, 119, 180);"><=
+/circle><circle class=3D"dot" r=3D"27.79440778264739" cx=3D"206.66310680949=
+866" cy=3D"464.8166861448546" stroke=3D"black" id=3D"ldavis_el5466822787434=
+468007927122080-topic5" style=3D"opacity: 0.2; fill: rgb(31, 119, 180);"></=
+circle></g><text x=3D"295" y=3D"30" style=3D"font-size: 16px; text-anchor: =
+middle;">Intertopic Distance Map (via multidimensional scaling)</text><g tr=
+ansform=3D"translate(650,60)" id=3D"ldavis_el5466822787434468007927122080-b=
+ar-freqs" class=3D"xaxis"><rect x=3D"0" y=3D"540" height=3D"15" width=3D"10=
+0" opacity=3D"0.4" style=3D"fill: rgb(31, 119, 180);"></rect><text x=3D"105=
+" y=3D"547.5" style=3D"dominant-baseline: middle;">Overall term frequency</=
+text><rect x=3D"0" y=3D"560" height=3D"15" width=3D"50" opacity=3D"0.8" sty=
+le=3D"fill: rgb(214, 39, 40);"></rect><text x=3D"55" y=3D"567.5" style=3D"d=
+ominant-baseline: middle;">Estimated term frequency within the selected top=
+ic</text><a xlink:href=3D"http://vis.stanford.edu/files/2012-Termite-AVI.pd=
+f" target=3D"_blank"><text x=3D"0" y=3D"590" style=3D"dominant-baseline: mi=
+ddle;">1. saliency(term w) =3D frequency(w) * [sum_t p(t | w) * log(p(t | w=
+)/p(t))] for topics t; see Chuang et. al (2012)</text></a><a xlink:href=3D"=
+http://nlp.stanford.edu/events/illvi2014/papers/sievert-illvi2014.pdf" targ=
+et=3D"_blank"><text x=3D"0" y=3D"605" style=3D"dominant-baseline: middle;">=
+2. relevance(term w | topic t) =3D &#955; * p(w | t) + (1 - &#955;) * p(w |=
+ t)/p(w); see Sievert &amp; Shirley (2014)</text></a><rect class=3D"bar-tot=
+als" x=3D"0" y=3D"11" height=3D"14" width=3D"512.51" opacity=3D"0.4" style=
+=3D"fill: rgb(31, 119, 180);"></rect><rect class=3D"bar-totals" x=3D"0" y=
+=3D"28" height=3D"14" width=3D"60.95" opacity=3D"0.4" style=3D"fill: rgb(31=
+, 119, 180);"></rect><rect class=3D"bar-totals" x=3D"0" y=3D"45" height=3D"=
+14" width=3D"81.62" opacity=3D"0.4" style=3D"fill: rgb(31, 119, 180);"></re=
+ct><rect class=3D"bar-totals" x=3D"0" y=3D"62" height=3D"14" width=3D"45.05=
+0000000000004" opacity=3D"0.4" style=3D"fill: rgb(31, 119, 180);"></rect><r=
+ect class=3D"bar-totals" x=3D"0" y=3D"79" height=3D"14" width=3D"50.88" opa=
+city=3D"0.4" style=3D"fill: rgb(31, 119, 180);"></rect><rect class=3D"bar-t=
+otals" x=3D"0" y=3D"96" height=3D"14" width=3D"36.57" opacity=3D"0.4" style=
+=3D"fill: rgb(31, 119, 180);"></rect><rect class=3D"bar-totals" x=3D"0" y=
+=3D"113" height=3D"14" width=3D"32.86" opacity=3D"0.4" style=3D"fill: rgb(3=
+1, 119, 180);"></rect><rect class=3D"bar-totals" x=3D"0" y=3D"130" height=
+=3D"14" width=3D"31.799999999999997" opacity=3D"0.4" style=3D"fill: rgb(31,=
+ 119, 180);"></rect><rect class=3D"bar-totals" x=3D"0" y=3D"147" height=3D"=
+14" width=3D"132.5" opacity=3D"0.4" style=3D"fill: rgb(31, 119, 180);"></re=
+ct><rect class=3D"bar-totals" x=3D"0" y=3D"164" height=3D"14" width=3D"60.4=
+2" opacity=3D"0.4" style=3D"fill: rgb(31, 119, 180);"></rect><rect class=3D=
+"bar-totals" x=3D"0" y=3D"181" height=3D"14" width=3D"11.13" opacity=3D"0.4=
+" style=3D"fill: rgb(31, 119, 180);"></rect><rect class=3D"bar-totals" x=3D=
+"0" y=3D"198" height=3D"14" width=3D"11.13" opacity=3D"0.4" style=3D"fill: =
+rgb(31, 119, 180);"></rect><rect class=3D"bar-totals" x=3D"0" y=3D"215" hei=
+ght=3D"14" width=3D"11.13" opacity=3D"0.4" style=3D"fill: rgb(31, 119, 180)=
+;"></rect><rect class=3D"bar-totals" x=3D"0" y=3D"232" height=3D"14" width=
+=3D"18.02" opacity=3D"0.4" style=3D"fill: rgb(31, 119, 180);"></rect><rect =
+class=3D"bar-totals" x=3D"0" y=3D"249" height=3D"14" width=3D"91.16" opacit=
+y=3D"0.4" style=3D"fill: rgb(31, 119, 180);"></rect><rect class=3D"bar-tota=
+ls" x=3D"0" y=3D"266" height=3D"14" width=3D"18.55" opacity=3D"0.4" style=
+=3D"fill: rgb(31, 119, 180);"></rect><rect class=3D"bar-totals" x=3D"0" y=
+=3D"283" height=3D"14" width=3D"22.79" opacity=3D"0.4" style=3D"fill: rgb(3=
+1, 119, 180);"></rect><rect class=3D"bar-totals" x=3D"0" y=3D"300" height=
+=3D"14" width=3D"9.01" opacity=3D"0.4" style=3D"fill: rgb(31, 119, 180);"><=
+/rect><rect class=3D"bar-totals" x=3D"0" y=3D"317" height=3D"14" width=3D"1=
+8.02" opacity=3D"0.4" style=3D"fill: rgb(31, 119, 180);"></rect><rect class=
+=3D"bar-totals" x=3D"0" y=3D"334" height=3D"14" width=3D"24.38" opacity=3D"=
+0.4" style=3D"fill: rgb(31, 119, 180);"></rect><rect class=3D"bar-totals" x=
+=3D"0" y=3D"351" height=3D"14" width=3D"15.370000000000001" opacity=3D"0.4"=
+ style=3D"fill: rgb(31, 119, 180);"></rect><rect class=3D"bar-totals" x=3D"=
+0" y=3D"368" height=3D"14" width=3D"6.89" opacity=3D"0.4" style=3D"fill: rg=
+b(31, 119, 180);"></rect><rect class=3D"bar-totals" x=3D"0" y=3D"385" heigh=
+t=3D"14" width=3D"15.370000000000001" opacity=3D"0.4" style=3D"fill: rgb(31=
+, 119, 180);"></rect><rect class=3D"bar-totals" x=3D"0" y=3D"402" height=3D=
+"14" width=3D"25.44" opacity=3D"0.4" style=3D"fill: rgb(31, 119, 180);"></r=
+ect><rect class=3D"bar-totals" x=3D"0" y=3D"419" height=3D"14" width=3D"7.9=
+49999999999999" opacity=3D"0.4" style=3D"fill: rgb(31, 119, 180);"></rect><=
+rect class=3D"bar-totals" x=3D"0" y=3D"436" height=3D"14" width=3D"14.31" o=
+pacity=3D"0.4" style=3D"fill: rgb(31, 119, 180);"></rect><rect class=3D"bar=
+-totals" x=3D"0" y=3D"453" height=3D"14" width=3D"73.14" opacity=3D"0.4" st=
+yle=3D"fill: rgb(31, 119, 180);"></rect><rect class=3D"bar-totals" x=3D"0" =
+y=3D"470" height=3D"14" width=3D"13.78" opacity=3D"0.4" style=3D"fill: rgb(=
+31, 119, 180);"></rect><rect class=3D"bar-totals" x=3D"0" y=3D"487" height=
+=3D"14" width=3D"6.89" opacity=3D"0.4" style=3D"fill: rgb(31, 119, 180);"><=
+/rect><rect class=3D"bar-totals" x=3D"0" y=3D"504" height=3D"14" width=3D"8=
+6.39" opacity=3D"0.4" style=3D"fill: rgb(31, 119, 180);"></rect><text x=3D"=
+-5" class=3D"terms" y=3D"23" cursor=3D"pointer" id=3D"ldavis_el546682278743=
+4468007927122080-termsnow" style=3D"text-anchor: end;">tire</text><text x=
+=3D"-5" class=3D"terms" y=3D"40" cursor=3D"pointer" id=3D"ldavis_el54668227=
+87434468007927122080-termtraction" style=3D"text-anchor: end;">snow</text><=
+text x=3D"-5" class=3D"terms" y=3D"57" cursor=3D"pointer" id=3D"ldavis_el54=
+66822787434468007927122080-termroad" style=3D"text-anchor: end;">traction</=
+text><text x=3D"-5" class=3D"terms" y=3D"74" cursor=3D"pointer" id=3D"ldavi=
+s_el5466822787434468007927122080-termdry" style=3D"text-anchor: end;">road<=
+/text><text x=3D"-5" class=3D"terms" y=3D"91" cursor=3D"pointer" id=3D"ldav=
+is_el5466822787434468007927122080-termrain" style=3D"text-anchor: end;">mil=
+e</text><text x=3D"-5" class=3D"terms" y=3D"108" cursor=3D"pointer" id=3D"l=
+davis_el5466822787434468007927122080-termwet" style=3D"text-anchor: end;">d=
+ry</text><text x=3D"-5" class=3D"terms" y=3D"125" cursor=3D"pointer" id=3D"=
+ldavis_el5466822787434468007927122080-termvery" style=3D"text-anchor: end;"=
+>rain</text><text x=3D"-5" class=3D"terms" y=3D"142" cursor=3D"pointer" id=
+=3D"ldavis_el5466822787434468007927122080-termcorner" style=3D"text-anchor:=
+ end;">wet</text><text x=3D"-5" class=3D"terms" y=3D"159" cursor=3D"pointer=
+" id=3D"ldavis_el5466822787434468007927122080-termcondition" style=3D"text-=
+anchor: end;">car</text><text x=3D"-5" class=3D"terms" y=3D"176" cursor=3D"=
+pointer" id=3D"ldavis_el5466822787434468007927122080-termproblem" style=3D"=
+text-anchor: end;">very</text><text x=3D"-5" class=3D"terms" y=3D"193" curs=
+or=3D"pointer" id=3D"ldavis_el5466822787434468007927122080-termcome" style=
+=3D"text-anchor: end;">steering</text><text x=3D"-5" class=3D"terms" y=3D"2=
+10" cursor=3D"pointer" id=3D"ldavis_el5466822787434468007927122080-termweat=
+her" style=3D"text-anchor: end;">heavy</text><text x=3D"-5" class=3D"terms"=
+ y=3D"227" cursor=3D"pointer" id=3D"ldavis_el5466822787434468007927122080-t=
+ermpavement" style=3D"text-anchor: end;">spin</text><text x=3D"-5" class=3D=
+"terms" y=3D"244" cursor=3D"pointer" id=3D"ldavis_el54668227874344680079271=
+22080-termimprove" style=3D"text-anchor: end;">problem</text><text x=3D"-5"=
+ class=3D"terms" y=3D"261" cursor=3D"pointer" id=3D"ldavis_el54668227874344=
+68007927122080-termfeel" style=3D"text-anchor: end;">great</text><text x=3D=
+"-5" class=3D"terms" y=3D"278" cursor=3D"pointer" id=3D"ldavis_el5466822787=
+434468007927122080-termoverall" style=3D"text-anchor: end;">condition</text=
+><text x=3D"-5" class=3D"terms" y=3D"295" cursor=3D"pointer" id=3D"ldavis_e=
+l5466822787434468007927122080-termlittle" style=3D"text-anchor: end;">corne=
+r</text><text x=3D"-5" class=3D"terms" y=3D"312" cursor=3D"pointer" id=3D"l=
+davis_el5466822787434468007927122080-termhigh" style=3D"text-anchor: end;">=
+sidewall</text><text x=3D"-5" class=3D"terms" y=3D"329" cursor=3D"pointer" =
+id=3D"ldavis_el5466822787434468007927122080-termhighway" style=3D"text-anch=
+or: end;">come</text><text x=3D"-5" class=3D"terms" y=3D"346" cursor=3D"poi=
+nter" id=3D"ldavis_el5466822787434468007927122080-termloose" style=3D"text-=
+anchor: end;">vehicle</text><text x=3D"-5" class=3D"terms" y=3D"363" cursor=
+=3D"pointer" id=3D"ldavis_el5466822787434468007927122080-termice" style=3D"=
+text-anchor: end;">now</text><text x=3D"-5" class=3D"terms" y=3D"380" curso=
+r=3D"pointer" id=3D"ldavis_el5466822787434468007927122080-termspeed" style=
+=3D"text-anchor: end;">enough</text><text x=3D"-5" class=3D"terms" y=3D"397=
+" cursor=3D"pointer" id=3D"ldavis_el5466822787434468007927122080-termdrive"=
+ style=3D"text-anchor: end;">weather</text><text x=3D"-5" class=3D"terms" y=
+=3D"414" cursor=3D"pointer" id=3D"ldavis_el5466822787434468007927122080-ter=
+mwinter" style=3D"text-anchor: end;">replace</text><text x=3D"-5" class=3D"=
+terms" y=3D"431" cursor=3D"pointer" id=3D"ldavis_el546682278743446800792712=
+2080-termtreadwear" style=3D"text-anchor: end;">then</text><text x=3D"-5" c=
+lass=3D"terms" y=3D"448" cursor=3D"pointer" id=3D"ldavis_el5466822787434468=
+007927122080-termresponse" style=3D"text-anchor: end;">pavement</text><text=
+ x=3D"-5" class=3D"terms" y=3D"465" cursor=3D"pointer" id=3D"ldavis_el54668=
+22787434468007927122080-termgrip" style=3D"text-anchor: end;">look</text><t=
+ext x=3D"-5" class=3D"terms" y=3D"482" cursor=3D"pointer" id=3D"ldavis_el54=
+66822787434468007927122080-termpoor" style=3D"text-anchor: end;">improve</t=
+ext><text x=3D"-5" class=3D"terms" y=3D"499" cursor=3D"pointer" id=3D"ldavi=
+s_el5466822787434468007927122080-termgood" style=3D"text-anchor: end;">brea=
+k</text><text x=3D"-5" class=3D"terms" y=3D"516" cursor=3D"pointer" id=3D"l=
+davis_el5466822787434468007927122080-termbit" style=3D"text-anchor: end;">w=
+ell</text><g class=3D"tick" transform=3D"translate(0,0)" style=3D"opacity: =
+1;"><line y2=3D"530" x2=3D"0"></line><text dy=3D"0em" y=3D"-3" x=3D"0" styl=
+e=3D"text-anchor: middle;">0</text></g><g class=3D"tick" transform=3D"trans=
+late(106,0)" style=3D"opacity: 1;"><line y2=3D"530" x2=3D"0"></line><text d=
+y=3D"0em" y=3D"-3" x=3D"0" style=3D"text-anchor: middle;">200</text></g><g =
+class=3D"tick" transform=3D"translate(212,0)" style=3D"opacity: 1;"><line y=
+2=3D"530" x2=3D"0"></line><text dy=3D"0em" y=3D"-3" x=3D"0" style=3D"text-a=
+nchor: middle;">400</text></g><g class=3D"tick" transform=3D"translate(318,=
+0)" style=3D"opacity: 1;"><line y2=3D"530" x2=3D"0"></line><text dy=3D"0em"=
+ y=3D"-3" x=3D"0" style=3D"text-anchor: middle;">600</text></g><g class=3D"=
+tick" transform=3D"translate(424,0)" style=3D"opacity: 1;"><line y2=3D"530"=
+ x2=3D"0"></line><text dy=3D"0em" y=3D"-3" x=3D"0" style=3D"text-anchor: mi=
+ddle;">800</text></g><g class=3D"tick" transform=3D"translate(530,0)" style=
+=3D"opacity: 1;"><line y2=3D"530" x2=3D"0"></line><text dy=3D"0em" y=3D"-3"=
+ x=3D"0" style=3D"text-anchor: middle;">1,000</text></g><path class=3D"doma=
+in" d=3D"M0,530V0H530V530"></path><text x=3D"265" y=3D"-30" class=3D"bubble=
+-tool" style=3D"text-anchor: middle; font-size: 16px;">Top-30 Most Salient =
+Terms<tspan baseline-shift=3D"super" font-size=3D"12">1</tspan></text></g><=
+/svg></div>
+</body></html>
+------MultipartBoundary--P52ER1VV4e7WXr8iSoGt8uketJRB56N8BWqSkn1UIr----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://cdn.rawgit.com/bmabey/pyLDAvis/files/ldavis.v1.0.0.css
+
+@charset "utf-8";
+
+path { fill: none; stroke: none; }
+
+.xaxis .tick.major { fill: black; stroke: black; stroke-width: 0.1; opacity=
+: 0.7; }
+
+.slideraxis { fill: black; stroke: black; stroke-width: 0.4; opacity: 1; }
+
+text { font-family: sans-serif; font-size: 11px; }
+
+.container { width: 1350px !important; }
+
+.output_area { width: 1450px !important; }
+------MultipartBoundary--P52ER1VV4e7WXr8iSoGt8uketJRB56N8BWqSkn1UIr------
